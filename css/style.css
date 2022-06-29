@@ -77,6 +77,10 @@ a {
     margin-left: 10px;
 }
 
+#navbar-items > li:hover {
+    background-color: #333;
+}
+
 /* Main Showcase */
 
 #showcase {
