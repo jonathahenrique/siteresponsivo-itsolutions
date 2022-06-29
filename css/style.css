@@ -77,8 +77,8 @@ a {
     margin-left: 10px;
 }
 
-#navbar-items > li:hover {
-    background-color: #333;
+#navbar-items > li > a:hover {
+    color: rgba(164, 90, 234, 0.802);
 }
 
 /* Main Showcase */
