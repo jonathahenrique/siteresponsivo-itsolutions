@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width: 968px) and (min-width:768px)">
     <script src="https://kit.fontawesome.com/53e94713c8.js" 
     crossorigin="anonymous" defer></script>
     <title>IT Solutions</title>
@@ -15,9 +17,9 @@
         <nav id="navbar-container">
             <h1 class="logo">IT Solutions</h1>
             <ul id="navbar-items">
-                <li>Início</li>
-                <li>Sobre</li>
-                <li>Galeria</li>
+                <li><a href="#">Início</a></li>
+                <li><a href="#clients">Sobre</a></li>
+                <li><a href="#gallery">Galeria</a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +34,7 @@
     <!-- About -->
     <section id="clients">
         <div class="headline">Nossos Clientes</div>
-        <div class="clients-container">
+        <div id="clients-container">
             <img src="it-solutions-start/img/netflix.png" class="client" alt="logo-netflix">
             <img src="it-solutions-start/img/google.png" class="client" alt="logo-google">
             <img src="it-solutions-start/img/apple.png" class="client" alt="logo-apple">
@@ -42,17 +44,17 @@
     <section id="features">
         <div class="headline">O que fazemos</div>
         <div id="features-container">
-            <div class="features">
-                <i class="fa fa-tachometer-alt fa3x"></i>
+            <div class="feature">
+                <i class="fa fa-tachometer-alt fa-3x"></i>
                 <span class="feature-title">Título span</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quia unde omnis magni doloremque nemo!</p>
             </div>
-            <div class="features">
+            <div class="feature">
                 <i class="fas fa-code fa-3x"></i>
                 <span class="feature-title">Título span</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quia unde omnis magni doloremque nemo!</p>
             </div>
-            <div class="features">
+            <div class="feature">
                 <i class="fas fa-layer-group fa-3x"></i>
                 <span class="feature-title">Título span</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quia unde omnis magni doloremque nemo!</p>
@@ -68,20 +70,17 @@
                 <div class="item">
                     <i class="fas fa-map-marked fa-2x color-primary"></i>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem qui praesentium dignissimos error vel ducimus?</p>
-                </div>
-            <div id="items">
+                </div>          
                 <div class="item">
                     <i class="fas fa-users fa-2x color-primary"></i>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem qui praesentium dignissimos error vel ducimus?</p>
-                </div>
-            <div id="items">
+                </div>          
                 <div class="item">
                     <i class="fas fa-glass-cheers fa-2x color-primary"></i>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem qui praesentium dignissimos error vel ducimus?</p>
-                </div>
-            <div id="items">
+                </div>         
                 <div class="item">
-                    <i class="fa-brands fa-apple-pay"></i>
+                    <i class="fa-brands fa-apple-pay fa-2x"></i>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem qui praesentium dignissimos error vel ducimus?</p>
                 </div>
             </div>
@@ -91,11 +90,11 @@
     <div id="testimonials">
         <div class="headline">O que acham de nós</div>
         <div id="testimonials-container">
-            <div class="testmonial">
+            <div class="testimonial">
                 <img src="it-solutions-start/img/person-1.jpeg" alt="Foto" class="testimonial-img">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed adipisci rem porro assumenda enim repellat itaque illo, culpa repellendus debitis.</p>
             </div>
-            <div class="testmonial">
+            <div class="testimonial">
                 <img src="it-solutions-start/img/person-2.jpeg" alt="Foto" class="testimonial-img">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed adipisci rem porro assumenda enim repellat itaque illo, culpa repellendus debitis.</p>
             </div>
@@ -104,17 +103,17 @@
     <section id="gallery">
         <div class="headline">Galeria</div>
         <div id="gallery-container">
-            <img src="it-solutions-start/img/image-1.jpeg" alt="imagem1" class="gallery-image">
-            <img src="it-solutions-start/img/image-2.jpeg" alt="imagem2" class="gallery-image">
-            <img src="it-solutions-start/img/image-3.jpeg" alt="imagem3" class="gallery-image">
-            <img src="it-solutions-start/img/image-4.jpeg" alt="imagem4" class="gallery-image">
-            <img src="it-solutions-start/img/image-5.jpeg" alt="imagem5" class="gallery-image">
-            <img src="it-solutions-start/img/image-6.jpeg" alt="imagem6" class="gallery-image">
+            <div class="gallery-image"><img src="it-solutions-start/img/image-1.jpeg" alt="imagem1" ></div>
+            <div class="gallery-image"><img src="it-solutions-start/img/image-2.jpeg" alt="imagem2" ></div>
+            <div class="gallery-image"><img src="it-solutions-start/img/image-3.jpeg" alt="imagem3" ></div>
+            <div class="gallery-image"><img src="it-solutions-start/img/image-4.jpeg" alt="imagem4" ></div>
+            <div class="gallery-image"><img src="it-solutions-start/img/image-5.jpeg" alt="imagem5" ></div>
+            <div class="gallery-image"><img src="it-solutions-start/img/image-6.jpeg" alt="imagem6" ></div>
         </div>
     </section>
 
     <footer id="footer">
-        <p>Copyright 2022 - TOdos direitos reservados</p>
+        <p>Copyright 2022 - Todos direitos reservados</p>
     </footer>
 </body>
 </html>
