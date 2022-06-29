@@ -21,6 +21,11 @@
     border-top: 1px solid #333;
 }
 
+/* Showcase */
+#showcase-container {
+    width: 90%;
+}
+
 /* Clients */
 #clients-container {
     grid-template-columns: repeat(2, 1fr);
