@@ -48,7 +48,7 @@ a {
 #navbar {
     width: 100%;
     height: 80px;
-    background: #111;
+    background-color: rgba(17, 17, 17, 1);
     color: #eee;
     position: fixed;
 }
@@ -72,13 +72,21 @@ a {
     text-transform: uppercase;
 }
 
+#navbar-items a {
+    display: block;
+}
+
 #navbar-items > li {
-    padding: 10px;
+    padding: 0rem 0.5rem;
     margin-left: 10px;
 }
 
 #navbar-items > li > a:hover {
     color: rgba(164, 90, 234, 0.802);
+}
+
+#btn-mobile {
+    display: none;
 }
 
 /* Main Showcase */
